@@ -4,12 +4,66 @@
 <head>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Alke Wallet</title>
+     <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
 </head>
 
 <body>
+    <nav class="navbar navbar-expand-lg" style="background:#151515;">
+        <div class="container-fluid">
+            <a class="navbar-brand text-white" href="/iniciales/menu.html">
+                <img src="/img/wallet.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                Alke Wallet
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="/transacciones/depositMoney.html"><small>Depositar</small></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="/transacciones/sendMoney.html"><small>Enviar</small></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="/transacciones/record.html"><small>Historial</small></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container d-flex justify-content-center align-items-center">
+        <!--Contenedor principal-->
+        <div class="row border rounded-4 shadow box-area p-3 bg-white">
+            <!-- Izquierda -->
+            <div class="col-md-6 rounded-4 d-flex justify-content-center align-items-center flex-column left-box"
+                style="background:#151515;">
+                <div class="featured-image mb-3">
+                    <img src="/img/balance.png" class="img-fluid " style="width:150px">
+                    <p class="text-white text-center fs-2"
+                        style="font-family:'Courier New', Courier, monospace; font-weight:600;">$000000</p>
+                    <small class="text-white text-center text-wrap"
+                        style="width: 17rem; font-family: 'Courier New', Courier, monospace;">Saldo disponible</small>
+                </div>
+            </div>
+            <!-- Derecha -->
+            <div class="col-md-6 right-box">
+                <div class="row align-items-center">
+                    <div class="header-text mb-4 text-center">
+                        <h2 class="fw-bold">Historial de Transacciones</h2>
+                        <p class="text-muted mb-4">esta es tu billetera digital</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
