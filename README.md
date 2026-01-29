@@ -1,0 +1,6 @@
+Para loguearse las credenciales son:
+Email:ignacio@alke.com
+Pwd:123456
+Aun sin coneccion a base de datos.
+Se agregaran más funcionalidades.
+v0.1
